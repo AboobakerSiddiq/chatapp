@@ -1,0 +1,48 @@
+.nav{
+    margin:0;
+    position: fixed;
+    top:0;
+    padding:20px;
+    width: 100%;
+    height:30px;
+    z-index:1;
+    transition-timing-function: ease-in;
+    transition:all 0.5s;
+  border-bottom: 1px solid rgb(179, 171, 171) ;
+    
+   
+}
+
+.nav_contents{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.nav_logo{
+    position: fixed;
+    left: 0;
+    top:10px;
+    width:50px;;
+    cursor: pointer;
+    object-fit:contain;
+    padding-left: 20px;
+    
+}
+
+.right_icons{
+    padding-right: 90px;
+    display:flex;
+    color:#111;
+}
+.Notification_div{
+    padding-right: 20px;
+    padding-left:10px;
+    padding-bottom:15px;
+    cursor:pointer;
+}
+.nav hr{
+    
+    margin: 0 -15px;
+    border: 0;
+    border-top: 1px solid #ffebee;
+}
